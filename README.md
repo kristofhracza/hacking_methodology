@@ -1,10 +1,8 @@
-# Hello Fellow Humans!
-This site consist of notes that will help with compromising CTF-like systems.     
-The book is mainly made up of notes from Hack The Box write-ups and from some other projects on which I've been working on.
+# Hello!
 
-This is not a finished site. I will keep on adding information that I believe to be useful. Also, not every technique or method will be included here. These are surface-level notes that are useful. **Do not** rely on them too much!
+This site serves as a foundation for penetration testing methodology. More sophisticated attacks and techniques will not be covered here, as they are already well-documented on [HackTricks](https://book.hacktricks.wiki/en/index.html), and I don’t want to reinvent the wheel. Instead, this site focuses on basic enumeration commands, interesting and unique exploits or vulnerabilities I’ve encountered, and notes to help navigate rabbit holes or enhance what I call the "hacker mindset."
 
-
+This is not a finished site. I will keep on adding information that I believe to be useful. Again, these are surface-level notes that are useful. **Do not** rely on them too much!
 
 
 {% hint style="info" %}

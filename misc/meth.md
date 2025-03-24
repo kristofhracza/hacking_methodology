@@ -1,5 +1,5 @@
 # Checklist for myself (mainly)
-- Assume that the easiest path is the best
+- Assume that the easiest path is the best (Occam's razor)
 - Enumerate every new finding and connect to previously obtained information
 
 # Terminal tricks
