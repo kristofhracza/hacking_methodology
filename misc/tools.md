@@ -135,6 +135,15 @@ Use the **[extractor](https://github.com/extremecoders-re/pyinstxtractor)** to u
 
 Click **[this](https://www.fortinet.com/blog/threat-research/unpacking-python-executables-windows-linux)** for better explanation and examples.
 
+## Android
+- [jadx - Dex to Java decompiler](https://github.com/skylot/jadx)
+
+## Steganography
+- [stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+
+## Git
+- [git-dumper](https://github.com/arthaud/git-dumper)
+
 ## Miscallenous
 - `upx` for packing and unpacking binaries.
 - [Angr / Claripy - Abstracted constraint-solving wrapper](https://github.com/angr/claripy?tab=readme-ov-file)
