@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance/Web/Attacks/XSS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XSS"
+              "title": "README"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "63523ad79fda15a3",
   "lastOpenFiles": [
+    "Reconnaissance/Web/Attacks/XSS.md",
     "Reconnaissance/Web/Attacks/SSRF.md",
     "Reconnaissance/Web/Attacks/IDOR.md",
     "Reconnaissance/Web/Attacks/File Upload.md",
@@ -178,7 +179,6 @@
     "Reconnaissance/Web/Attacks/CRLF.md",
     "Reconnaissance/Web/Website Enumeration.md",
     "README.md",
-    "Reconnaissance/Web/Attacks/XSS.md",
     "Reconnaissance/Web/Attacks",
     "Reconnaissance/Windows",
     "Reconnaissance/Web",
