@@ -1,5 +1,5 @@
 This collection serves as a foundation for penetration testing methodology. Previously, these notes only covered basic enumeration and privilege escalation tips, however, this version will add more nuanced and sophisticated attacks, techniques and so forth. However, please do keep in mind, that not all possibilities are documented for one particular vulnerability, so please refer to the *References* sections for more information about any given vulnerability.
-Also, many of the content is taken from and inspired by [HackTricks(https://book.hacktricks.wiki/en/index.html) for clarity.
+Also, many of the content is taken from and inspired by [HackTricks](https://book.hacktricks.wiki/en/index.html) for clarity.
 
 Please consider using this as a source of help should you need it.
 
