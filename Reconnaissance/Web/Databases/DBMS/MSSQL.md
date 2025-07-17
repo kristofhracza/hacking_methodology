@@ -9,7 +9,7 @@ Microsoft SQL Server (MSSQL) is a relational database management system develope
 1434 DAC
 ```
 
-# Connection
+## Connection
 
 ```sh
 # mssqlclient
@@ -191,7 +191,9 @@ Use master; EXEC sp_helprotect 'xp_regread'; EXEC sp_helprotect 'xp_regwrite';
 # Privilege Escalation
 ```sql
 -- Get owners of databases 
-SELECT suser_sname(owner_sid) FROM sys.databases # Find trustworthy databases SELECT a.name,b.is_trustworthy_on FROM master..sysdatabases as a INNER JOIN sys.databases as b ON a.name=b.name; 
+SELECT suser_sname(owner_sid) FROM sys.databases 
+-- Find trustworthy databases 
+SELECT a.name,b.is_trustworthy_on FROM master..sysdatabases as a INNER JOIN sys.databases as b ON a.name=b.name; 
 
 -- Get roles over the selected database (look for your username as db_owner) 
 USE <trustworthy_db> SELECT rp.name as database_role, mp.name as database_user from sys.database_role_members drm join sys.database_principals rp on (drm.role_principal_id = rp.principal_id) join sys.database_principals mp on (drm.member_principal_id = mp.principal_id) 

