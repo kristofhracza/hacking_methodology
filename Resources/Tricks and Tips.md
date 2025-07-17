@@ -49,16 +49,12 @@ Either by changing directories or outputting a file.
 Use `hexdump <binary> -C` to see the first few bytes of the binary.
 
 ```
-
 ARHCITECTURE: x86
 
 50 45 00 00 4c 01 04 00 |........PE..L...|
 
-  
 
 ARHCITECTURE: x64
-
 50 45 00 00 64 86 03 00 |........PE..d...|
-
 ```
 - [https://www.gdatasoftware.com/blog/pebitnesstrick](https://www.gdatasoftware.com/blog/pebitnesstrick)
