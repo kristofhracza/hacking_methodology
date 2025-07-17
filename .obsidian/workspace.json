@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bfdb0c2c41253fda",
+        "id": "d6df2cc9820f8622",
         "type": "tabs",
         "children": [
           {
-            "id": "d6d1528ca2831fb2",
+            "id": "00c4af36d2740605",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reconnaissance/Other Technologies.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Other Technologies"
+              "title": "New tab"
             }
           }
         ]
@@ -168,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6d1528ca2831fb2",
+  "active": "392f9f610416571a",
   "lastOpenFiles": [
-    "Resources/Tools.md",
     "Reconnaissance/Other Technologies.md",
+    "Resources/Tools.md",
+    "Reconnaissance/Windows AD.md",
     "Resources/Tricks and Tips.md",
     "README.md",
     "Reconnaissance/Web/Website Enumeration.md",
