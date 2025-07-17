@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reconnaissance/Web/Databases/DBMS/MongoDB.md",
+                "file": "Resources/Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MongoDB"
+              "title": "Tools"
             }
           }
         ]
@@ -170,18 +170,20 @@
   },
   "active": "4b52f4b22c43a4fb",
   "lastOpenFiles": [
+    "Reconnaissance/Web/Website Enumeration.md",
+    "Resources/Tools.md",
+    "Resources",
+    "Reconnaissance/Web/Databases/DBMS/MongoDB.md",
     "Reconnaissance/Web/Databases/DBMS/Redis.md",
     "Reconnaissance/Web/Databases/DBMS/SQLite.md",
     "Reconnaissance/Web/Databases/DBMS/MySQL.md",
     "Reconnaissance/Web/Databases/DBMS/MSSQL.md",
-    "Reconnaissance/Web/Databases/DBMS/MongoDB.md",
     "Reconnaissance/Web/Databases/DBMS/Oracle and ODAT.md",
     "Reconnaissance/Web/Databases/Database Enumeration.md",
     "README.md",
     "Reconnaissance/Web/Attacks/SSRF.md",
     "Reconnaissance/Web/Attacks/IDOR.md",
     "Reconnaissance/Web/Attacks/XSS.md",
-    "Reconnaissance/Web/Website Enumeration.md",
     "Reconnaissance/Web/Attacks/CRLF.md",
     "Reconnaissance/Web/Databases/DBMS",
     "Reconnaissance/Web/Databases",
