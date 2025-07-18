@@ -3,9 +3,14 @@
 # Tips
 
 - If a database has a table of session one can try to steal cookies or other credentials from the table to authenticate as another user.
-
 - If one is in a database with write access and there are roles assigned to users, give the current user admin rights.
 
+# DBMS Enumeration
+- [[3306 - MySQL]]
+- [[1433 - MSSQL]]
+- [[1521, 1522–1529 - Oracle and ODAT]]
+- [[27017, 27018 - MongoDB]]
+- [[SQLite Enumeration]]
   
 
 # SQL Injection Cheat Sheets

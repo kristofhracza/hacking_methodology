@@ -1,12 +1,6 @@
 # Basic Information
 MySQL is an open-source relational database management system (RDBMS) used to store, manage, and retrieve data.
 
-## Ports
-```
-3306
-33060
-```
-
 ## Connection
 
 ```sh

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c78a815a4d49d801",
+        "id": "6a6c447c7c161dc1",
         "type": "tabs",
         "children": [
           {
-            "id": "cef93c1f4bae0aa2",
+            "id": "3b2b18d7c13adbaf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reconnaissance/Web/Attacks/XSS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "XSS"
+              "title": "New tab"
             }
           }
         ]
@@ -168,43 +164,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cef93c1f4bae0aa2",
+  "active": "3b2b18d7c13adbaf",
   "lastOpenFiles": [
-    "Reconnaissance/Web/Attacks/SSRF.md",
-    "Reconnaissance/Web/Attacks/IDOR.md",
-    "Reconnaissance/Web/Attacks/CSRF.md",
-    "Reconnaissance/Web/Attacks/CRLF.md",
-    "Reconnaissance/Databases/Database Enumeration.md",
-    "Reconnaissance/Databases/DBMS/SQLite.md",
-    "Reconnaissance/Databases/DBMS/Redis.md",
-    "Reconnaissance/Databases/DBMS/Oracle and ODAT.md",
-    "Reconnaissance/Databases/DBMS/MySQL.md",
-    "Reconnaissance/Databases/DBMS/MSSQL.md",
-    "Reconnaissance/Databases/DBMS/MongoDB.md",
+    "Databases/SQLite Enumeration.md",
+    "Databases/Database Enumeration.md",
+    "Protocols/21 - FTP.md",
+    "2025-07-18.md",
     "Resources/Tricks and Tips.md",
     "Resources/Tools.md",
-    "Reconnaissance/Web/Website Enumeration.md",
-    "Protocols/88 - Kerberos.md",
-    "Protocols/5985, 5986 - WinRM.md",
-    "Protocols/21 - FTP.md",
-    "Protocols/111 - PortMapper.md",
-    "Protocols/389, 636, 3268, 3269 - LDAP.md",
-    "Protocols/53 - DNS.md",
-    "Protocols/135, 593 - RPC.md",
-    "Protocols/139, 445 - SMB.md",
-    "Reconnaissance/Web/Attacks/File Upload.md",
-    "Untitled.md",
+    "Protocols/80, 443 - Web/Attacks and Services/QUIC.md",
+    "Reconnaissance/Other Technologies.md",
+    "Protocols/3690 - Apache Sub Version SVN.md",
+    "Protocols/161, 162, 10161, 10162 - SNMP.md",
+    "Protocols/80, 443 - Web/Attacks and Services/WebDav.md",
+    "Protocols/80, 443 - Web/Website Enumeration.md",
+    "Protocols/80, 443 - Web",
+    "Protocols/80, 443 - Web.md",
+    "Protocols/1521, 1522–1529 - Oracle and ODAT.md",
+    "Protocols/3306 - MySQL.md",
+    "Reconnaissance/Databases/DBMS/MongoDB.md",
+    "Protocols/6379 - Redis.md",
+    "Reconnaissance/Databases/DBMS/Redis.md",
+    "Reconnaissance/Databases/DBMS/Oracle and ODAT.md",
+    "Protocols/1433 - MSSQL.md",
+    "Reconnaissance/Databases/DBMS/MSSQL.md",
+    "Reconnaissance/Databases/DBMS/MySQL.md",
+    "Protocols/27017, 27018 - MongoDB.md",
+    "Protocols/80, 443 - Web/Attacks and Services/XSS.md",
+    "Protocols/80, 443 - Web/Attacks and Services/SSRF.md",
+    "Protocols/80, 443 - Web/Attacks and Services/IDOR.md",
     "Binary Exploitation",
     "Reversing",
     "Protocols",
-    "Linux/Privilege Escalation.md",
-    "Reconnaissance/Web/Attacks/File Inclusions.md",
     "Windows/Privilege Escalation",
     "Windows/Active Directory",
     "Windows",
     "Linux",
     "Resources",
-    "Reconnaissance/Databases/DBMS",
-    "Reconnaissance/Databases"
+    "Reconnaissance/Databases/DBMS"
   ]
 }

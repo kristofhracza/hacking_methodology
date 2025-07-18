@@ -189,6 +189,8 @@ Read **[this](https://www.fortinet.com/blog/threat-research/unpacking-python-exe
 # Git
 - [git-dumper](https://github.com/arthaud/git-dumper)
 
+# SQL
+- [NoSQLMap](https://github.com/codingo/NoSQLMap)
   
 # Miscallenous
 - `upx` for packing and unpacking binaries.
