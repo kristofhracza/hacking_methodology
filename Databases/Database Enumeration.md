@@ -10,6 +10,7 @@
 - [[1433 - MSSQL]]
 - [[1521, 1522–1529 - Oracle and ODAT]]
 - [[27017, 27018 - MongoDB]]
+- [[6379 - Redis]]
 - [[SQLite Enumeration]]
   
 

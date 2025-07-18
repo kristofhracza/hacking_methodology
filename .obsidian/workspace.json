@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a6c447c7c161dc1",
+        "id": "e4f86cef038d48ed",
         "type": "tabs",
         "children": [
           {
-            "id": "3b2b18d7c13adbaf",
+            "id": "e812dcc526b961dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Database Enumeration"
             }
           }
         ]
@@ -164,20 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b2b18d7c13adbaf",
+  "active": "e812dcc526b961dd",
   "lastOpenFiles": [
+    "Protocols/80, 443 - Web/Attacks and Services/WebDav.md",
+    "Protocols/80, 443 - Web/Attacks and Services/QUIC.md",
+    "Protocols/80, 443 - Web/Website Enumeration.md",
+    "README.md",
     "Databases/SQLite Enumeration.md",
     "Databases/Database Enumeration.md",
     "Protocols/21 - FTP.md",
     "2025-07-18.md",
     "Resources/Tricks and Tips.md",
     "Resources/Tools.md",
-    "Protocols/80, 443 - Web/Attacks and Services/QUIC.md",
     "Reconnaissance/Other Technologies.md",
     "Protocols/3690 - Apache Sub Version SVN.md",
     "Protocols/161, 162, 10161, 10162 - SNMP.md",
-    "Protocols/80, 443 - Web/Attacks and Services/WebDav.md",
-    "Protocols/80, 443 - Web/Website Enumeration.md",
     "Protocols/80, 443 - Web",
     "Protocols/80, 443 - Web.md",
     "Protocols/1521, 1522–1529 - Oracle and ODAT.md",
@@ -192,7 +197,6 @@
     "Protocols/27017, 27018 - MongoDB.md",
     "Protocols/80, 443 - Web/Attacks and Services/XSS.md",
     "Protocols/80, 443 - Web/Attacks and Services/SSRF.md",
-    "Protocols/80, 443 - Web/Attacks and Services/IDOR.md",
     "Binary Exploitation",
     "Reversing",
     "Protocols",
