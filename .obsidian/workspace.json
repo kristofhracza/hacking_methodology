@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d6df2cc9820f8622",
+        "id": "474dbf4bfc70674b",
         "type": "tabs",
         "children": [
           {
-            "id": "00c4af36d2740605",
+            "id": "ef41c24378a1e2c9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,35 +164,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "392f9f610416571a",
+  "active": "ef41c24378a1e2c9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Binary Exploitation",
+    "Reversing",
+    "Protocols",
+    "Linux/Privilege Escalation.md",
+    "Reconnaissance/Web/Attacks/File Inclusions.md",
+    "Windows/Privilege Escalation",
+    "Windows/Active Directory",
+    "Windows",
+    "Linux",
+    "Reconnaissance/Windows AD.md",
     "Reconnaissance/Other Technologies.md",
     "Resources/Tools.md",
-    "Reconnaissance/Windows AD.md",
     "Resources/Tricks and Tips.md",
     "README.md",
     "Reconnaissance/Web/Website Enumeration.md",
-    "Reconnaissance/Web/Databases/DBMS/SQLite.md",
-    "Reconnaissance/Web/Databases/Database Enumeration.md",
+    "Reconnaissance/Databases/DBMS/SQLite.md",
+    "Reconnaissance/Databases/Database Enumeration.md",
     "Reconnaissance/Web/Attacks/XSS.md",
     "Reconnaissance/Web/Attacks/CRLF.md",
-    "Reconnaissance/Web/Attacks/File Inclusions.md",
     "Reconnaissance/Web/Attacks/File Upload.md",
-    "Reconnaissance/Web/Databases/DBMS/MongoDB.md",
-    "Reconnaissance/Web/Databases/DBMS/MySQL.md",
-    "Reconnaissance/Web/Databases/DBMS/MSSQL.md",
+    "Reconnaissance/Databases/DBMS/MongoDB.md",
+    "Reconnaissance/Databases/DBMS/MySQL.md",
+    "Reconnaissance/Databases/DBMS/MSSQL.md",
     "Resources",
-    "Reconnaissance/Web/Databases/DBMS/Redis.md",
-    "Reconnaissance/Web/Databases/DBMS/Oracle and ODAT.md",
+    "Reconnaissance/Databases/DBMS/Redis.md",
+    "Reconnaissance/Databases/DBMS/Oracle and ODAT.md",
     "Reconnaissance/Web/Attacks/SSRF.md",
     "Reconnaissance/Web/Attacks/IDOR.md",
-    "Reconnaissance/Web/Databases/DBMS",
-    "Reconnaissance/Web/Databases",
+    "Reconnaissance/Databases/DBMS",
+    "Reconnaissance/Databases",
     "SUMMARY.md",
-    "Reconnaissance/Web/Attacks/CSRF.md",
-    "Reconnaissance/Web/Attacks",
-    "Reconnaissance/Windows",
-    "Reconnaissance/Web",
-    "Reconnaissance"
+    "Reconnaissance/Web/Attacks/CSRF.md"
   ]
 }
