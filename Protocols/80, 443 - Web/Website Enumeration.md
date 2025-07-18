@@ -75,3 +75,15 @@ wpscan --url <url> -e ap,at,dbe,u
 8000 HTTP Alternative
 8080 HTTP Alternative
 ```
+
+# Related Attacks and Services list
+This is for the **Graph View** of Obsidian
+- [[CRLF]]
+- [[CSRF]]
+- [[File Inclusions]]
+- [[File Upload]]
+- [[IDOR]]
+- [[QUIC]]
+- [[SSRF]]
+- [[WebDav]]
+- [[XSS]]
