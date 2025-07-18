@@ -1,0 +1,2 @@
+**Kerberos** is a network authentication protocol designed to provide secure user authentication over insecure networks. 
+It uses secret-key cryptography and a trusted third-party called the Key Distribution Center (KDC) to issue time-limited tickets, enabling users and services to prove their identities securely without transmitting passwords across the network.

@@ -121,6 +121,7 @@ If data cannot be found in those files, one might try to go back one folder to `
 - [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
 - [All Impacket scripts](https://github.com/fortra/impacket/tree/master/examples)
 - [Powermad](https://github.com/Kevin-Robertson/Powermad)
+- [windapsearch](https://github.com/ropnop/windapsearch)
 - [Rubeus Docs](https://github.com/GhostPack/Rubeus)
 - [Rubeus Release](https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.5_x64/Rubeus.exe)
 - [SharpCollection - Pre-compiled binaries (windows)](https://github.com/Flangvik/SharpCollection/tree/master/NetFramework_4.5_x64)

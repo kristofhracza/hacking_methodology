@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "474dbf4bfc70674b",
+        "id": "c78a815a4d49d801",
         "type": "tabs",
         "children": [
           {
-            "id": "ef41c24378a1e2c9",
+            "id": "cef93c1f4bae0aa2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Protocols/88 - Kerberos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "88 - Kerberos"
             }
           }
         ]
@@ -164,8 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef41c24378a1e2c9",
+  "active": "cef93c1f4bae0aa2",
   "lastOpenFiles": [
+    "Protocols/5985, 5986 - WinRM.md",
+    "Protocols/88 - Kerberos.md",
+    "Protocols/21 - FTP.md",
+    "Protocols/111 - PortMapper.md",
+    "Protocols/389, 636, 3268, 3269 - LDAP.md",
+    "Protocols/53 - DNS.md",
+    "Protocols/135, 593 - RPC.md",
+    "Resources/Tools.md",
+    "Protocols/139, 445 - SMB.md",
+    "Reconnaissance/Databases/DBMS/MongoDB.md",
+    "Reconnaissance/Databases/DBMS/MySQL.md",
+    "Reconnaissance/Databases/DBMS/Redis.md",
+    "Reconnaissance/Web/Attacks/File Upload.md",
+    "Reconnaissance/Web/Website Enumeration.md",
     "Untitled.md",
     "Binary Exploitation",
     "Reversing",
@@ -178,26 +196,15 @@
     "Linux",
     "Reconnaissance/Windows AD.md",
     "Reconnaissance/Other Technologies.md",
-    "Resources/Tools.md",
     "Resources/Tricks and Tips.md",
     "README.md",
-    "Reconnaissance/Web/Website Enumeration.md",
     "Reconnaissance/Databases/DBMS/SQLite.md",
     "Reconnaissance/Databases/Database Enumeration.md",
     "Reconnaissance/Web/Attacks/XSS.md",
     "Reconnaissance/Web/Attacks/CRLF.md",
-    "Reconnaissance/Web/Attacks/File Upload.md",
-    "Reconnaissance/Databases/DBMS/MongoDB.md",
-    "Reconnaissance/Databases/DBMS/MySQL.md",
     "Reconnaissance/Databases/DBMS/MSSQL.md",
     "Resources",
-    "Reconnaissance/Databases/DBMS/Redis.md",
-    "Reconnaissance/Databases/DBMS/Oracle and ODAT.md",
-    "Reconnaissance/Web/Attacks/SSRF.md",
-    "Reconnaissance/Web/Attacks/IDOR.md",
     "Reconnaissance/Databases/DBMS",
-    "Reconnaissance/Databases",
-    "SUMMARY.md",
-    "Reconnaissance/Web/Attacks/CSRF.md"
+    "Reconnaissance/Databases"
   ]
 }
