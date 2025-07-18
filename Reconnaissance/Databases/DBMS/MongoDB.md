@@ -1,4 +1,4 @@
-# MongoDB
+# Basic Information
 MongoDB is an open source database management system that uses a document-oriented database model to handle diverse forms of data. 
 It offers flexibility and scalability for managing unstructured or semi-structured data in applications like big data analytics and content management.
 

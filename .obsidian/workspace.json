@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protocols/88 - Kerberos.md",
+                "file": "Reconnaissance/Web/Attacks/XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "88 - Kerberos"
+              "title": "XSS"
             }
           }
         ]
@@ -170,20 +170,29 @@
   },
   "active": "cef93c1f4bae0aa2",
   "lastOpenFiles": [
-    "Protocols/5985, 5986 - WinRM.md",
+    "Reconnaissance/Web/Attacks/SSRF.md",
+    "Reconnaissance/Web/Attacks/IDOR.md",
+    "Reconnaissance/Web/Attacks/CSRF.md",
+    "Reconnaissance/Web/Attacks/CRLF.md",
+    "Reconnaissance/Databases/Database Enumeration.md",
+    "Reconnaissance/Databases/DBMS/SQLite.md",
+    "Reconnaissance/Databases/DBMS/Redis.md",
+    "Reconnaissance/Databases/DBMS/Oracle and ODAT.md",
+    "Reconnaissance/Databases/DBMS/MySQL.md",
+    "Reconnaissance/Databases/DBMS/MSSQL.md",
+    "Reconnaissance/Databases/DBMS/MongoDB.md",
+    "Resources/Tricks and Tips.md",
+    "Resources/Tools.md",
+    "Reconnaissance/Web/Website Enumeration.md",
     "Protocols/88 - Kerberos.md",
+    "Protocols/5985, 5986 - WinRM.md",
     "Protocols/21 - FTP.md",
     "Protocols/111 - PortMapper.md",
     "Protocols/389, 636, 3268, 3269 - LDAP.md",
     "Protocols/53 - DNS.md",
     "Protocols/135, 593 - RPC.md",
-    "Resources/Tools.md",
     "Protocols/139, 445 - SMB.md",
-    "Reconnaissance/Databases/DBMS/MongoDB.md",
-    "Reconnaissance/Databases/DBMS/MySQL.md",
-    "Reconnaissance/Databases/DBMS/Redis.md",
     "Reconnaissance/Web/Attacks/File Upload.md",
-    "Reconnaissance/Web/Website Enumeration.md",
     "Untitled.md",
     "Binary Exploitation",
     "Reversing",
@@ -194,15 +203,6 @@
     "Windows/Active Directory",
     "Windows",
     "Linux",
-    "Reconnaissance/Windows AD.md",
-    "Reconnaissance/Other Technologies.md",
-    "Resources/Tricks and Tips.md",
-    "README.md",
-    "Reconnaissance/Databases/DBMS/SQLite.md",
-    "Reconnaissance/Databases/Database Enumeration.md",
-    "Reconnaissance/Web/Attacks/XSS.md",
-    "Reconnaissance/Web/Attacks/CRLF.md",
-    "Reconnaissance/Databases/DBMS/MSSQL.md",
     "Resources",
     "Reconnaissance/Databases/DBMS",
     "Reconnaissance/Databases"

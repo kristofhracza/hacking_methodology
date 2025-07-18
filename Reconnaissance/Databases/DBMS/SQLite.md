@@ -1,5 +1,5 @@
 
-# SQLite
+# # Basic Information
 SQLite is a lightweight, serverless, embedded relational database management system (RDBMS). It's a library that is embedded directly into applications, rather than being a separate server process.
 
 ## Useful Commands

@@ -1,4 +1,3 @@
-# Tools
 # Wordlists
 - [rockyou.txt](https://github.com/zacheller/rockyou)
 - [Sub-domains (1)](https://github.com/n0kovo/n0kovo_subdomains)
@@ -103,7 +102,6 @@ bloodhound-python -u <username> -p <password> -d <domain> -c All -ns <nameserver
 ## sssd
 `sssd` is an open source client for enterprise identity management.
 It allows for Linux machines to be joined into an Active Directory domain.
-
 
 `SSSD` maintains a copy of the database at the path `/var/lib/sss/secrets/secrets.ldb`
 

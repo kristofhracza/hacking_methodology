@@ -1,4 +1,4 @@
-# MSSQL
+# Basic Information
 Microsoft SQL Server (MSSQL) is a relational database management system developed by Microsoft. It uses T-SQL (Transact-SQL) for querying and managing data and is commonly used in enterprise-level applications, especially within Windows environments.  
 
 ## Ports
