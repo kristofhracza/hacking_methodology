@@ -46,6 +46,8 @@ find / -perm -4000 2>/dev/null
 ```bash
 # Open ports
 (netstat -punta || ss --ntpu)
+netstat -tulnp
+ifconfig
 ```
 
 ## Misc

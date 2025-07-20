@@ -1,6 +1,6 @@
 # System Information
 - [ ] Check for files which can be run as root: `sudo -l`
-- [ ] Gather OS information
+- [ ] Gather [[Linux Hardening/Commands and DIRs#System Information|OS information]]
 - [ ] Check **$PATH**
 	- [ ] Writable folders or files?
 - [ ] Check environment variables
@@ -14,7 +14,7 @@
 		- [ ] Is the group unusual?
 	- [ ] Files
 	- [ ] Processes owned / run
-- [ ] Clipboards
+- [ ] [[Linux Hardening/Commands and DIRs#Clipboard|Clipboards]]
 - [ ] Try to **use** every **known password** that you have discovered previously to login **with each** possible **user**. Try to login also without a password.
 
 # Files and Drives
@@ -27,7 +27,7 @@
 - [ ] Binaries in **$PATH**
 
 # Network
-- [ ] Enumerate the network: `netstat -tulnp` and `ifconfig`
+- [ ] Enumerate the [[Linux Hardening/Commands and DIRs#Network|network]]
 - [ ] Read: `/proc/net/fib_trie`
 - [ ] Ping sweep: `for i in {1..254}; do (ping -c 1 10.10.10.${i} | grep "bytes from" | grep -v "Unreachable" &); done;`
 
