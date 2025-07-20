@@ -18,19 +18,7 @@
 - [ ] Try to **use** every **known password** that you have discovered previously to login **with each** possible **user**. Try to login also without a password.
 
 # Files and Drives
-- [ ] Have you read?
-	- [ ] /etc/shadow
-	- [ ] /etc/passwd
-	- [ ] /etc/hosts
-	- [ ] /etc/issue
-	- [ ] /home/USERNAME/.bash_history
-	- [ ] /home/USERNAME/.profile
-- [ ] Have you checked inside?
-	- [ ] /tmp
-	- [ ] /dev/shm
-	- [ ] /opt
-	- [ ] /var/log
-	- [ ] /usr/sbin
+- [ ] Have you read and checked the common [[Linux Hardening/Commands and DIRs#Directories|files and directories]] ?
 - [ ] Shared files or drives
 - [ ] Mounted or unmounted drives
 - [ ] Files owned by other users
