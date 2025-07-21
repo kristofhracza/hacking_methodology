@@ -39,3 +39,5 @@
 - [[Windows Hardening/Commands and DIRs|Commands and DIRs]]
 - Active Directory
 	- [[LAPS]]
+- Lateral Movement
+	- [[DCOM]]
