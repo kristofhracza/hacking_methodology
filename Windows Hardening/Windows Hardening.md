@@ -38,6 +38,7 @@
 # Everything Needed For The Checklist and Beyond
 - [[Windows Hardening/Commands and DIRs|Commands and DIRs]]
 - Active Directory
+	- [[Enumeration Tools]]
 	- [[LAPS]]
 - Lateral Movement
 	- [[DCOM]]
