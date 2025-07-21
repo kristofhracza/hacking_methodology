@@ -35,5 +35,7 @@
 - [ ] Vulnerable [[Windows Hardening/Commands and DIRs#Drivers|Drivers]]
 
 
-# Everything Needed For The Checklist
+# Everything Needed For The Checklist and Beyond
 - [[Windows Hardening/Commands and DIRs|Commands and DIRs]]
+- Active Directory
+	- [[LAPS]]
