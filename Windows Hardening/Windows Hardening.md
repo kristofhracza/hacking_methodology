@@ -40,6 +40,7 @@
 - Active Directory
 	- [[Enumeration Tools]]
 	- [[LAPS]]
+	- [[DCSync]]
 - Lateral Movement
 	- [[DCOM]]
 - [[AV Evasion]]
