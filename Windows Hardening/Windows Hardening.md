@@ -38,9 +38,10 @@
 # Everything Needed For The Checklist and Beyond
 - [[Windows Hardening/Commands and DIRs|Commands and DIRs]]
 - Active Directory
+	- [[ASREPRoast]]
+	- [[DCSync]]
 	- [[Enumeration Tools]]
 	- [[LAPS]]
-	- [[DCSync]]
 - Lateral Movement
 	- [[DCOM]]
 - [[AV Evasion]]
