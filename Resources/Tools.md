@@ -128,6 +128,7 @@ If data cannot be found in those files, one might try to go back one folder to `
 - [VNCDecrypt](https://github.com/billchaison/VNCDecrypt)
 - [Mimikatz in python](https://github.com/skelsec/pypykatz)
 - [mRemoteNG Decryptor](https://github.com/kmahyyg/mremoteng-decrypt)
+- [bloodyAD](https://github.com/CravateRouge/bloodyAD)
 
 # Reverse Engineering
 
