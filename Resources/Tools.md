@@ -129,6 +129,7 @@ If data cannot be found in those files, one might try to go back one folder to `
 - [Mimikatz in python](https://github.com/skelsec/pypykatz)
 - [mRemoteNG Decryptor](https://github.com/kmahyyg/mremoteng-decrypt)
 - [bloodyAD](https://github.com/CravateRouge/bloodyAD)
+- [crackmapexec](https://github.com/byt3bl33d3r/CrackMapExec)
 
 # Reverse Engineering
 
