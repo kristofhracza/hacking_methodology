@@ -42,6 +42,7 @@
 	- [[DCSync]]
 	- [[Enumeration Tools]]
 	- [[LAPS]]
+	- [[Silver Ticket]]
 - Lateral Movement
 	- [[DCOM]]
 - [[AV Evasion]]
