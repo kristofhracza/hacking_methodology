@@ -41,6 +41,7 @@
 	- [[ASREPRoast]]
 	- [[DCSync]]
 	- [[Enumeration Tools]]
+	- [[Golden Ticket]]
 	- [[LAPS]]
 	- [[Silver Ticket]]
 - Lateral Movement

