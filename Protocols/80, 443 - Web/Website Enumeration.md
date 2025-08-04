@@ -83,6 +83,7 @@ This is for the **Graph View** of Obsidian
 - [[File Inclusions]]
 - [[File Upload]]
 - [[IDOR]]
+- [[Log Poisoning]]
 - [[QUIC]]
 - [[SSRF]]
 - [[WebDav]]
