@@ -62,5 +62,41 @@ Find-InterestingDomainAcl -Domain your.domain -ResolveGUIDs
 Find-InterestingDomainAcl -ResolveGUIDs | ?{$_.IdentityReferenceName -match "USERNAME"}
 ```
 
+
+# NetExec
+[https://github.com/Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)
+Newer version of `crackmapexec` with added tools.
+
+## Basic Information
+
+```bash
+# Basic information
+netexec smb <DOMAIN> 
+
+# Test credentials
+## Username + password
+netexec smb <DOMAIN> -u <USER> -p '<PASSWORD>'
+## Username + NT hash
+netexec smb <DOMAIN> -u <USER> -H <HASH>
+## Kerberos from ticket cache
+KRB5CCNAME=<ticket.ccache> netexec smb <DOMAIN> -k --use-kcache
+
+# Test sessions
+## Null session
+netexec smb <DOMAIN> --shares
+## Authenticated session
+netexec smb <DOMAIN> -u <USER> -p '<PASSWORD>' --shares
+
+# Dump LAPS passwords
+netexec smb <DOMAIN> -u <USER> -p '<PASSWORD>' --laps
+
+# ADCS
+netexec ldap <IP> -u <USER> -p '<PASSWORD>' --adcs
+
+# Check for WinRM
+netexec winrm <DOMAIN> -u <USER> -H <HASH>
+```
+**There are way more commands and uses of this tools, please refer to its manual. For example one can query BloodHound data and change passwords**
+
 # References
 - [https://powersploit.readthedocs.io/en/latest/Recon/](https://powersploit.readthedocs.io/en/latest/Recon/)

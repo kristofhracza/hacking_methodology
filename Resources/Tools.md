@@ -92,9 +92,6 @@ This will run against the domain, so can one run it from a remote machine.
 bloodhound-python -u <username> -p <password> -d <domain> -c All -ns <nameserver>
 ```
 
-
-  
-
 ## sssd
 `sssd` is an open source client for enterprise identity management.
 It allows for Linux machines to be joined into an Active Directory domain.
@@ -126,6 +123,7 @@ If data cannot be found in those files, one might try to go back one folder to `
 - [mRemoteNG Decryptor](https://github.com/kmahyyg/mremoteng-decrypt)
 - [bloodyAD](https://github.com/CravateRouge/bloodyAD)
 - [crackmapexec](https://github.com/byt3bl33d3r/CrackMapExec)
+- [NetExec](https://github.com/Pennyw0rth/NetExec)
 
 # Reverse Engineering
 
