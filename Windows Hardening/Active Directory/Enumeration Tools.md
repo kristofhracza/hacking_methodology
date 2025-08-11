@@ -1,6 +1,6 @@
 # BloodHound
+[Documentation](https://bloodhound.specterops.io/home)
 BloodHound is used to visualise AD environments and discover attack paths.
-[Documentation](https://bloodhound.readthedocs.io/en/latest/index.html)
 
 ## Ingestors
 ### SharpHound
