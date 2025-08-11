@@ -124,6 +124,7 @@ If data cannot be found in those files, one might try to go back one folder to `
 - [bloodyAD](https://github.com/CravateRouge/bloodyAD)
 - [crackmapexec](https://github.com/byt3bl33d3r/CrackMapExec)
 - [NetExec](https://github.com/Pennyw0rth/NetExec)
+- [certipy](https://github.com/ly4k/Certipy)
 
 # Reverse Engineering
 
