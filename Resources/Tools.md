@@ -135,13 +135,14 @@ r2 is a complete rewrite of radare. It provides a set of libraries, tools and pl
 - [Introduction](https://github.com/radareorg/radare2/blob/master/doc/intro.md)
 - [Manual](https://man.archlinux.org/man/radare2.1.en)
 
-  
-
 ## Ghidra
 Open-source reverse engineering software developed by NSA
 - [Ghidra GitHub](https://github.com/NationalSecurityAgency/ghidra)
 - [Ghidra CheatSheet](https://ghidra-sre.org/CheatSheet.html)
 
+## Flare-VM
+[https://github.com/mandiant/flare-vm](https://github.com/mandiant/flare-vm)
+A collection of software installations scripts for Windows systems that allows you to easily setup and maintain a reverse engineering environment on a virtual machine.
   
 
 ## GDB
