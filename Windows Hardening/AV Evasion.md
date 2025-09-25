@@ -29,6 +29,11 @@ Now start the listener with `msfconsole -r file.rc` and execute the XML payload 
 C:\Win
 ```
 
+
+# Manual Obfuscation
+- **[https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/](https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/)**
+
+
 # References
 - [https://book.hacktricks.wiki/en/windows-hardening/av-bypass.html](https://book.hacktricks.wiki/en/windows-hardening/av-bypass.html)
 - [https://github.com/GreatSCT/GreatSCT.git](https://github.com/GreatSCT/GreatSCT.git)

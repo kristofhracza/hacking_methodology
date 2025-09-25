@@ -3,7 +3,11 @@
 - [ ] Environment variables
 - [ ] Read [[Windows Hardening/Commands and DIRs#PowerShell History| PowerShell history]]
 - [ ] Look for [[Windows Hardening/Commands and DIRs#Drives|Drives]]
-- [ ] Run WinPeas
+- [ ] Run: 
+	- [ ] [winPeas]([peass-ng/PEASS-ng: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)](https://github.com/peass-ng/PEASS-ng)) -- If AV catches it, try running it from memory.
+	- [ ] [HardeningKitty](https://github.com/scipag/HardeningKitty)
+	- [ ] `sysinfo` on the host and take the output and feed it to [Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
+		-  *It's aslo a Metasploit module*
 
 # User Information
 - [ ] Gather [[Windows Hardening/Commands and DIRs#User Information|user information]]
