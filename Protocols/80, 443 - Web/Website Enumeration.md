@@ -90,4 +90,4 @@ This is for the **Graph View** of Obsidian
 - [[WebDav]]
 - [[XSS]]
 ## Misc
-- [[Web| Real Life Web Flags]]
+- [[Web - IRL| Real Life Web Flags]]
