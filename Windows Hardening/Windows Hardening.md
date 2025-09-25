@@ -30,6 +30,7 @@
 - [ ]  Can you **write in any folder inside PATH**?
 - [ ]  Is there any known service binary that **tries to load any non-existent DLL**?
 - [ ]  Can you **write** in any **binaries folder**?
+- [ ] Check [[Windows Hardening/Path Hijacking|Path Hijacking]]
 
 # Applications
 - [ ] Vulnerable [[Windows Hardening/Commands and DIRs#Drivers|Drivers]]
@@ -47,3 +48,4 @@
 - Lateral Movement
 	- [[DCOM]]
 - [[AV Evasion]]
+- [[Windows Hardening/Path Hijacking|Path Hijacking]]
