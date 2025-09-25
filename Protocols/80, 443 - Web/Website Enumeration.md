@@ -78,6 +78,7 @@ wpscan --url <url> -e ap,at,dbe,u
 
 # Related Attacks and Services list
 This is for the **Graph View** of Obsidian
+## Attacks and tools
 - [[CRLF]]
 - [[CSRF]]
 - [[File Inclusions]]
@@ -88,3 +89,5 @@ This is for the **Graph View** of Obsidian
 - [[SSRF]]
 - [[WebDav]]
 - [[XSS]]
+## Misc
+- [[Web| Real Life Web Flags]]
