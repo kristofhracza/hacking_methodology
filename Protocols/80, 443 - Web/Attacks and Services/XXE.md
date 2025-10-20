@@ -5,7 +5,7 @@ An XML External Entity attack is a type of attack against an application that pa
 - Tainted data is allowed within the system identifier portion of the entity, within the document type declaration (DTD).
 - The XML processor is configured to validate and process the DTD.
 - The XML processor is configured to resolve external entities within the DTD.
-
+ 
 # Payloads
 ## LFI
 ```
