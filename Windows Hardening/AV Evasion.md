@@ -31,7 +31,7 @@ C:\Win
 
 
 # Manual Obfuscation
-- **[https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/](https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/)**
+- [https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/](https://0xstarlight.github.io/posts/Bypassing-Windows-Defender/)
 
 
 # References

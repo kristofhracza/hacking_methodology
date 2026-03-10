@@ -1,4 +1,3 @@
-*All credits go to Alex Teague of Prism Infosec.*
 - Always take notes on any device in case there's an update that changes something
 - Have two machines of different distros.
 	1. One out of date, to make sure nothing breaks and have a backup.

