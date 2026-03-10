@@ -89,7 +89,7 @@ This is for the **Graph View** of Obsidian
 - [[Open Redirect]]
 - [[QUIC]]
 - [[Server-Side Request Forgery (SSRF)]]
--  [[SSTI (Server Side Template Injection)]]
+-  [[Server Side Template Injection - SSTI]]
 - [[WebDav]]
 - [[XSS]]
 ## Misc
