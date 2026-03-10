@@ -79,14 +79,14 @@ wpscan --url <url> -e ap,at,dbe,u
 # Related Attacks and Services list
 This is for the **Graph View** of Obsidian
 ## Attacks and tools
-- [[CRLF]]
-- [[CSRF]]
+- [[Carriage Return Line Feed - CRLF]]
+- [[Cross Site Request Forgery (CSRF)]]
 - [[File Inclusions]]
 - [[File Upload]]
 - [[IDOR]]
 - [[Log Poisoning]]
 - [[QUIC]]
-- [[SSRF]]
+- [[Server-Side Request Forgery (SSRF)]]
 - [[WebDav]]
 - [[XSS]]
 ## Misc

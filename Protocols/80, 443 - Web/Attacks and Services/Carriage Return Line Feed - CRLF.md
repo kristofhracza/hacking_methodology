@@ -1,5 +1,3 @@
-# Carriage Return Line Feed (CRLF) Injection Attack
-
 In the HTTP protocol, the **CR-LF** sequence is always used to terminate a line.
 
 A CRLF Injection attack occurs when a user manages to submit a CRLF into an application. This is most commonly done by modifying an HTTP parameter or URL.

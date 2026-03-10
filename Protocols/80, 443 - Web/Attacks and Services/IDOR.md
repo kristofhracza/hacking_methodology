@@ -1,5 +1,3 @@
-# Insecure Direct Object Reference (IDOR)
-
 IDORs are mainly found in web applications and APIs that rely on user-supplied input to access objects directly.
 
 In an IDOR attack, a bad actor would be able to access data that they're not authorised to see, leading to unauthorised data exposure.

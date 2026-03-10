@@ -13,9 +13,7 @@ header("Location: $new_page");
 ```
 
 Here one can just supply any URL as the `page` parameter: `http://remote.com?page=http://10.10.10.10`
-
 It will result in a redirect to the given URL.
-
 
 
 # Example 2 (LFI)
@@ -29,7 +27,6 @@ echo $content;
 ```
 
 This is a normal LFI, though it can still be classified as SSRF.
-
 One can just use a file as the `url` parameter and read it: `http://remote.com?url=/etc/passwd`
 
 
