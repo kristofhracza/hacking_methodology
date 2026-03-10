@@ -85,8 +85,11 @@ This is for the **Graph View** of Obsidian
 - [[File Upload]]
 - [[IDOR]]
 - [[Log Poisoning]]
+- [[Object Injection]]
+- [[Open Redirect]]
 - [[QUIC]]
 - [[Server-Side Request Forgery (SSRF)]]
+-  [[SSTI (Server Side Template Injection)]]
 - [[WebDav]]
 - [[XSS]]
 ## Misc
