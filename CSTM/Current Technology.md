@@ -72,3 +72,27 @@ Fingerprinting a database server involves identifying the Database Management Sy
 - TCP/IP Stack fingerprinting
 - Use of automated tools
 	- Sending malfomed requests
+
+# Explain symmetrical and asymmetrical cryptography
+**Symmetric** cryptography uses a single, shared secret key for both encryption and decryption, offering high speed for large datasets. 
+**Asymmetric** cryptography uses a linked pair of public and private keys—one to encrypt and the other to decrypt—enhancing security and key distribution, but at a slower processing speed
+
+## Symmetric
+- Both parties have one shared key
+- It is efficient for large data, but is hard to distribute securely, as if the key is stolen data is compromised
+- Algorithms: AES, DES,ChaCha20
+	- **AES:** The industry standard, commonly using 128 or 256-bit keys.
+	- **DES**: Older, less secure
+	- **ChaCha20**: High-speed stream cipher
+
+## Asymmetric
+- Uses public and private key
+- **Public** key for encryption -- shared with everyone
+- **Private** key for decryption -- secret
+-  Algorithms: RSA,ECC,DH
+	- **RSA (Rivest-Shamir-Adleman):** Widely used for key exchange and digital signatures.
+	- **CC (Elliptic Curve Cryptography):** Provides high security with smaller key sizes, making it more efficient than RSA.
+	- **Diffie-Hellman (DH):** Primarily used for key exchange.
+
+## Childish example
+If Claire, the sender, and Jacqueline, the recipient, want to continually send a confidential file back and forth to each other, Claire and Jacqueline will give their unique and respective public keys to each other. Claire will then use Jacqueline’s public key to encrypt the file, since it’s intended for Jacqueline only, and send the file to Jacqueline. Upon receipt of the file, Jacqueline will use her private key – keyword, “private,” meaning no one else other than Jacqueline knows it - to decrypt the file and access its contents. No one other than Jacqueline, not even Claire, can decrypt this file, because no one other than Jacqueline knows Jacqueline’s private key. The same process applies when Jacqueline wants to send the file back to Claire. Jacqueline ties it to Claire’s public key, and Claire uses her private key to decrypt the file.
