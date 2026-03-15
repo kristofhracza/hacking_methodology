@@ -58,3 +58,17 @@ Kerberos uses tickets to allow nodes to prove their identity over non-secure net
 # Directory Traversal
 Directory traversal is a web security vulnerability allowing attackers to access unauthorised files, such as source code or system credentials, by manipulating file paths with `../` sequences. By tricking a server into traversing outside the root directory, attackers can read, modify, or delete sensitive data.
 It can also be used in file uploads by using the sequences in the file name for example.
+
+# What are the four types of Application Programming Interface (API)?
+- **Public APIs** can be used by anyone to access a server’s data or other services from a client application. Common uses of public APIs include retrieving traffic and weather data and managing third-party login processes. Public APIs are generally intended to let any application use a service. Public APIs tend to be widely used, great care is taken not to change them unless absolutely necessary so as not to break the functionality of applications.
+- **Private APIs** are developed for internal use only and aren’t widely published. Typically, private APIs let a vendor’s applications communicate with that vendor’s servers. For example, the banking application on your phone uses private APIs to access the unique services of your specific bank.
+- **Partner APIs** are developed for use between specific organisations. The details of the API are disclosed to a limited set of partners. For example, a cloud database platform may agree to partner with a set number of analytics providers. 
+- **Composite APIs** are chained together for a particular function and might be a combination of public, private, and partner APIs. An example of a chained API using public and private APIs is the integration between a weather app and a fitness tracker app. The weather app’s public API provides data such as temperature and humidity to the fitness tracker app. Its private API brings data on the owner’s pace and distance covered and combines it with environmental factors to calculate calories burned.
+
+# How would you fingerprint a database server?
+Fingerprinting a database server involves identifying the Database Management System (DBMS) type, version, and configuration by analysing network service banners, probing with specific SQL queries, and mapping open ports.
+- Banner grabbing (netcat,telnet or openssl)
+- Nmap scan (ports and services)
+- TCP/IP Stack fingerprinting
+- Use of automated tools
+	- Sending malfomed requests
