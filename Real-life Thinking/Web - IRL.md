@@ -1,4 +1,3 @@
-
 # HTTP Headers
 - Is the app missing the following headers, if so, flag it:
 	- [ ] **Strict-Transport-Security (HSTS)**: Tells the browser to only use HTTPS.

@@ -1,10 +1,29 @@
-# Tips
+# Methodology / Checklist
+If it is a real-life pen test, refer to and start with [[Web - IRL]] for low hanging fruits. Otherwise:
+- [ ] Walked the site with `Burp`
+- [ ] Checked directories and files
+- [ ] Viewed `Console` and `Debugger`/`Source` in browser along with page source
+	- [ ] Looked for error messages, identified source code?
+- [ ] Mapped out tech-stack
+	- [ ] Looked for exploits and CVEs
+	- [ ] If there is a templating engine, tried SSTI
+- [ ] If relevant, tried exploiting session tokens/cookies
+- [ ] Tried boiler plate attacks (open redirect, HTTP request smuggling etc)
+- [ ] HTTP method testing to uncover unexpected functionalities
+- [ ] Checked for underlying API
+- [ ] **Manually** examined functions
+	- [ ] Forced errors
+	- [ ] Exploited or attempted to exploit
+		- [ ] Specific?
+		- [ ] Business Logic?
+- [ ] Identified 401/403... error pages (bypass)
+- [ ] Examined `Burp` history and Target listing
 
-- When initially moving through the site, do it through `Burpsuite` as it will allow you to see all requests and how they are handled.
+**If real life assessment, don't forget to use rate limiting**
 
 
-
-# Directories
+# Enumeration
+## Directories
 
 ```bash
 # Feroxbuster
@@ -19,8 +38,7 @@ ffuf -u <host>/FUZZ -w <wordlist> -e .txt,.php,.html
 gobuster dir -u <IP> -w <wordlist>
 gobuster dir -u <IP> -w <wordlist> -x txt,php,html
 ```
-
-#  Sub-Domains and VHOSTs
+##  Sub-Domains and VHOSTs
 ```bash
 # FFUF
 ffuf -u <ip> -H "Host: FUZZ.host.local" -w <wordlist> -mc all
@@ -32,12 +50,19 @@ gobuster vhost -u <host> -w <wordlist>
 # wfuzz
 wfuzz -u <ip> -H "Host: FUZZ.domain.local" -w <wordlist>
 ```
+## CMS
 
+```bash
+wpscan --url <url> -e ap,at,dbe,u # -- my preffered choice
+wpscan --force update -e --url <URL>
 
+cmsmap [-f W] -F -d <URL>
 
-# Miscallenous
+joomscan --ec -u <URL>
+joomlavs.rb #https://github.com/rastating/joomlavs
+```
 
-## More Scans
+## Miscellaneous
 
 ```sh
 # Bruteforce internal port (SSRF)
@@ -47,25 +72,6 @@ wfuzz -c -z range,1-65535 --hl=2 http://<ip>:<port>/url.php?path=http://localhos
 wfuzz -u https://<link>/<page>/?FUZZ= -w <wordlist> -H "Cookie: PHPSESSID="
 ```
 
-## Zap
-[Zap](https://www.zaproxy.org/) is a web scanner that simulates human movement and tries to discover the target.
-It can also detect basic vulnerabilities as well as weak coding practices.
-
-## Nikto
-Scan sites for known vulnerabilities, misconfigurations and directories.
-
-```bash
-nikto -h <host>
-```
-
-
-## WordPress
-WordPress security scanner `wpscan`
-
-```bash
-# This is just my preferred scam please refer to the man page
-wpscan --url <url> -e ap,at,dbe,u
-```
 
 
 # Ports
@@ -76,9 +82,8 @@ wpscan --url <url> -e ap,at,dbe,u
 8080 HTTP Alternative
 ```
 
-# Related Attacks and Services list
-This is for the **Graph View** of Obsidian
-## Attacks and tools
+
+# Attack Vectors
 - [[Carriage Return Line Feed - CRLF]]
 - [[Cross Site Request Forgery (CSRF)]]
 - [[File Inclusions]]
@@ -94,3 +99,8 @@ This is for the **Graph View** of Obsidian
 - [[XSS]]
 ## Misc
 - [[Web - IRL| Real Life Web Flags]]
+
+
+# References
+- [https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/index.html](https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/index.html)
+- [https://hacktricks.wiki/en/pentesting-web/web-vulnerabilities-methodology.html](https://hacktricks.wiki/en/pentesting-web/web-vulnerabilities-methodology.html)
