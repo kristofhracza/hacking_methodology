@@ -96,3 +96,15 @@ Fingerprinting a database server involves identifying the Database Management Sy
 
 ## Childish example
 If Claire, the sender, and Jacqueline, the recipient, want to continually send a confidential file back and forth to each other, Claire and Jacqueline will give their unique and respective public keys to each other. Claire will then use Jacqueline’s public key to encrypt the file, since it’s intended for Jacqueline only, and send the file to Jacqueline. Upon receipt of the file, Jacqueline will use her private key – keyword, “private,” meaning no one else other than Jacqueline knows it - to decrypt the file and access its contents. No one other than Jacqueline, not even Claire, can decrypt this file, because no one other than Jacqueline knows Jacqueline’s private key. The same process applies when Jacqueline wants to send the file back to Claire. Jacqueline ties it to Claire’s public key, and Claire uses her private key to decrypt the file.
+
+
+# What is the difference between SQL and no SQL database vulnerabilities?
+NoSQL Injection vulnerabilities often arise from issues within database libraries and how they handle user input. These libraries may not provide proper input validation and parameterisation, leaving room for exploitation.
+
+| Aspect | SQL Injection | NoSQL Injection |
+|------|------|------|
+| **Query Structure** | Uses structured queries written in SQL (Structured Query Language). | Uses various query languages or sometimes no formal query language depending on the database. |
+| **Injection Techniques** | Attackers manipulate SQL query structure to alter database commands. | Attackers manipulate unstructured data or NoSQL-specific query constructs. |
+| **Query Parameters** | Exploits vulnerabilities in query parameters used within SQL statements. | Targets input data that is directly used in database queries or data manipulation operations. |
+| **Library Vulnerabilities** | Often related to poorly sanitized SQL queries in application code. | Often arises from weaknesses in NoSQL database libraries and how they handle user input without proper validation or parameterization. |
+| **Data Manipulation** | Frequently used to access, modify, or delete data in relational databases. | Attackers manipulate document structures or data objects, which may lead to data exposure or tampering. |
