@@ -49,24 +49,10 @@ Safer alternatives are SFTP or FTPS.
 
 
 # What is Kerberos?
-Kerberos is a ticket-based computer network authentication protocol. The idea behind Kerberos is to authenticate users while preventing passwords from being sent over the internet.
-It uses symmetric-key cryptography, which enables mutual authentication (client and server verify each other) and supports single sign-on (SSO) to securely access network services without constantly re-entering passwords.
+**Kerberos** is a network authentication protocol designed to provide secure user authentication over insecure networks. 
+Kerberos uses tickets to allow nodes to prove their identity over non-secure networks without transmitting passwords. The protocol involves a Key Distribution Center (KDC) that includes an Authentication Server (AS) and a Ticket Granting Server (TGS).
 
-## How does it work
-Kerberos uses symmetric key cryptography and a Key Distribution Centre (KDC) to authenticate and verify user identities. A KDC involves three aspects:
-
-1. A Ticket-Granting Server (TGS) that connects the user with the Service Server (SS)
-2. A Kerberos database that stores the password and identification of all verified users 
-3. An Authentication Server (AS) that performs the initial authentication
-
-During authentication, Kerberos stores the specific ticket for each session on the end-user's device. Instead of a password, a Kerberos-aware service looks for this ticket.
-
-Kerberos authentication is a multistep process that consists of the following components: 
-1. The client who initiates the need for a service request on the user's behalf 
-2. The server, which hosts the service that the user needs access to
-3. The AS, which performs client authentication. If authentication is successful, the client is issued a Ticket-Granting Ticket (TGT) or user authentication token, which is proof that the client has been authenticated. 
-4. The KDC and its three components: the AS, the TGS, and the Kerberos database
-5. The TGS application that issues service tickets
+*For more info  read [[88 - Kerberos]]*
 
 
 # Directory Traversal
