@@ -1,5 +1,5 @@
 # Root Squashing
-Feature in NFS that prevents remote **root** users on client machines from having the same level of permissions (root) on the NFS server.
+Feature in [[2049 - NFS Service]] that prevents remote **root** users on client machines from having the same level of permissions (root) on the NFS server.
 This is done by mapping the remote users to an unprivileged account such as `nobody` or `nfsnobody` with *UID 65534*
 
 ## TLDR
