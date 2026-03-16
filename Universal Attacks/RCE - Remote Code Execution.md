@@ -1,0 +1,10 @@
+Remote Code Execution (RCE) is a critical security vulnerability that allows an attacker to execute malicious code on a target system from a remote location. This type of attack enables threat actors to run arbitrary commands or programs on a victim's device without requiring physical access or direct interaction with the target system. The primary goal of an RCE attack is to gain unauthorised control over the affected system, potentially leading to data theft, system compromise, or further network infiltration.
+
+# How to get RCE
+- **[[File Upload]]:** Depending on the execution environment supported by the web server, attackers might gain code execution by uploading a malicious PHP or ASPX file.
+- **[[SSRF - Server-Side Request Forgery]]**: Cloud Metadata and server-side PDF generators are examples of internal services that might be vulnerable to command execution via SSRF.
+- **[[SSTI - Server-Side Template Injection)]]**: Insecure use of templating engines can expose SSTI vulnerabilities, allowing attackers to run commands on the host system.
+- **Insecure Deserialization:** When user-controlled data is passed into deserialization routines without validation, it can open the door to RCE, especially in languages like Java, PHP, or Python.
+- **CVEs (Common Vulnerabilities and Exposures):** Depending on whether the target web application is using a vulnerable version of a software.
+- **[[Database Enumeration | SQLi - SQL Injection]]** In certain database configurations, a successful SQL injection can go beyond data extraction and be leveraged to execute system commands, ultimately leading to remote code execution.
+- **Malicious File Uploads**: When a malicious file is uploaded to a server and the victim downloads and opens/interacts with the file in some way, the payload in the file will run.

@@ -1,7 +1,7 @@
 # Overview
 Log poisoning is a cyber-attack where adversaries manipulate systems’ log files to conceal their activities or execute malicious codes.
 
-Log poisoning can usually be executed after or as a result of an **[[File Inclusions#Basic]|LFI]]** vulnerability.
+Log poisoning can usually be executed after or as a result of an **[[LFI & RFI - File Inclusions#Basic]|LFI]]** vulnerability.
 
 # /var/log/apache2/access.log
 ## Variations
@@ -53,7 +53,7 @@ curl --user-agent "USER_AGENT" <URL>/?PARAMETER=/var/log/apache2/error.log&cmd=i
 
 
 # /var/log/auth.log
-When trying to login via SSH the attempt will be logged in the log file. With **[[File Inclusions#Basic]|LFI]]** allows the attacker to query the file where the command queried during the SSH login is then seen.
+When trying to login via SSH the attempt will be logged in the log file. With **[[LFI & RFI - File Inclusions#Basic]|LFI]]** allows the attacker to query the file where the command queried during the SSH login is then seen.
 ```bash
 # Sending the payload via SSH
 ssh '<php phpinfo(); ?>'@$TARGET

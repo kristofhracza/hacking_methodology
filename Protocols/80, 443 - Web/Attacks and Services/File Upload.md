@@ -144,10 +144,10 @@ mv file.jpg file.php.jpg
   
 
 # From file upload to other vulnerabilities
-- Set **filename** to `../../../dev/shm/file.jpg` for **path traversal**
-- Set **filename** to `sleep(10)-- -.jpg` for **SQL injection**
-- Set **filename** to `<svg onload=alert(document.comain)>` for **XSS**
-- Set **filename** to `; sleep 10;` for **command injection**
+- Set **filename** to `../../../dev/shm/file.jpg` for **[[Directory Traversal]]**
+- Set **filename** to `sleep(10)-- -.jpg` for **[[Database Enumeration | SQL Injection]]**
+- Set **filename** to `<svg onload=alert(document.comain)>` for **[[XSS - Cross-Site Scripting]]**
+- Set **filename** to `; sleep 10;` for **[[Command Injection]]**
 
 
 # References

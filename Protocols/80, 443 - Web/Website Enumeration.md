@@ -84,21 +84,28 @@ wfuzz -u https://<link>/<page>/?FUZZ= -w <wordlist> -H "Cookie: PHPSESSID="
 
 
 # Attack Vectors
+- [[Broken Access Control]]
+- [[Command Injection]]
 - [[CRLF - Carriage Return Line Feed]]
 - [[CSRF - Cross Site Request Forgery]]
-- [[File Inclusions]]
+- [[Directory Traversal]]
+- [[LFI & RFI - File Inclusions]]
 - [[File Upload]]
-- [[IDOR]]
+- [[HTTP Request Smuggling]]
+- [[IDOR - Insecure Direct Object Reference]]
+- [[LDAP Injection]]
 - [[Log Poisoning]]
 - [[Object Injection]]
 - [[Open Redirect]]
 - [[QUIC]]
 - [[SSRF - Server-Side Request Forgery]]
--  [[Server Side Template Injection - SSTI]]
+- [[SSTI - Server-Side Template Injection)]]
 - [[WebDav]]
 - [[XSS - Cross-Site Scripting]]
+- [[XXE - XML External Entity]]
 ## Misc
 - [[Web - IRL| Real Life Web Flags]]
+- [[Database Enumeration | SQLi - SQL Injection]] (through enumeration)
 
 
 # References
